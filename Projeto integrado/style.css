@@ -360,7 +360,7 @@ hr.separator {
   }
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-    float: right;
+    float: righ;
     padding: 6px;
     border: none;
     margin: 16px;
@@ -368,7 +368,7 @@ hr.separator {
   }
   @media screen and (max-width: 600px) {
     .topnav input[type=text] {
-        float: none;
+        float: right;
         display: block;
         text-align: right ;
         width: 100%;
