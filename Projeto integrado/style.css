@@ -29,9 +29,9 @@ footer {
 /* Background */
 
 body {
-  
+
     background-attachment: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@ a:hover {
 /* Nav */
 
 .wrap>nav {
-    background:orangered;
+    background: orangered;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .wrap>nav a:hover {
-    background:black;
+    background: black;
     color: white(0, 0, 0);
     text-decoration: none;
 }
@@ -120,7 +120,7 @@ a:hover {
 .wrap>nav i {
     font-size: 1.5rem;
     display: block;
-    
+
 }
 
 /* Usuário logado nmo menu principal */
@@ -141,10 +141,11 @@ a:hover {
 
 
 /* Sticky footer */
-main{
+main {
     width: 98%;
     margin: auto;
 }
+
 .wrap {
     display: flex;
     flex-direction: column;
@@ -152,7 +153,7 @@ main{
 
 .wrap>main {
     flex-grow: 3;
-    
+
 }
 
 /* Main, Article e Aside */
@@ -164,7 +165,7 @@ main{
 
 .wrap>main>article {
     padding: 1rem;
-    background:black;
+    background: black;
     flex-grow: 1;
 }
 
@@ -183,6 +184,7 @@ main{
     border-top: 5px dotted orangered;
     padding: 1rem;
     background: black;
+
 }
 
 /* Telas maiores que 768px */
@@ -290,9 +292,10 @@ aside .u_list li {
 
 hr.separator {
     border: none;
-    border-bottom: 1px dotted grey;
+    border-bottom: 1px dotted orangered;
     margin: 1rem 0;
 }
+
 /* CSS FLEXBOX 1 */
 .flex img {
     width: 230px;
@@ -310,54 +313,62 @@ hr.separator {
     flex: 1 1 200px;
     margin: 10px;
 }
+
 /*dropdown*/
 /* Dropdown Button */
 .dropbtn {
-    background-color:orangered;
+    background-color: orangered;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color:orangered;
+    background-color: orangered;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px orangered;
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color:white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:orangered}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color:black}
-  
-  .topnav {
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: orangered
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black
+}
+
+.topnav {
     overflow: hidden;
-  
-  }
+
+}
+
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: righ;
@@ -365,17 +376,20 @@ hr.separator {
     border: none;
     margin: 16px;
     font-size: 17px;
-  }
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .topnav input[type=text] {
         float: right;
         display: block;
-        text-align: right ;
+        text-align: right;
         width: 100%;
         margin: 0;
         padding: 14px;
-      }
-      .topnav input[type=text] {
-        border: 1px solid #ccc;
-      }
     }
+
+    .topnav input[type=text] {
+        border: 1px solid black;
+    }
+}
+
