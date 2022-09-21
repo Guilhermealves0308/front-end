@@ -122,7 +122,12 @@ a:hover {
     display: block;
 
 }
+#user{
+    position:fixed;
+    float: left;
 
+
+}
 /* Usuário logado nmo menu principal */
 
 .menu-user img {
@@ -181,9 +186,20 @@ main {
 }
 
 .wrap>main>aside {
-    border-top: 5px dotted orangered;
+    border-top: 5px solid orangered;
     padding: 1rem;
     background: black;
+
+}
+.wrap>main>aside img{ 
+        border: 1px solid orangered;
+        border-radius: 4px;
+        width: 150px;
+        padding: auto;
+        margin: auto;
+    
+        
+      
 
 }
 
@@ -284,6 +300,7 @@ aside .u_list li {
     }
 }
 
+
 /* Classes de uso geral */
 
 .center {
@@ -292,7 +309,7 @@ aside .u_list li {
 
 hr.separator {
     border: none;
-    border-bottom: 1px dotted orangered;
+    border-bottom: 1px solid orangered;
     margin: 1rem 0;
 }
 
